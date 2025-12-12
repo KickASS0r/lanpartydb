@@ -34,6 +34,16 @@ A series *may* have:
 
 * `alternative_names`, which is a non-empty list of alternative names of the
   party series.
+* A `links` section; see below.
+
+A links section *must* have:
+
+* A `website`, which:
+
+  * *must* specify `url`, which is a common URL like
+    `https://www.awesomelan.example/`.
+  * *can* specify `offline`, with a value of either `false` (the default) or
+    `true`.
 
 Minimal example of an entry:
 
@@ -50,6 +60,9 @@ Full example of an entry:
 slug = "awesome-lan"
 name = "Awesome LAN"
 alternative_names = ["That Awesome LAN Party"]
+
+[links.website]
+url = "https://www.awesomelan.example/"
 ```
 
 
@@ -155,6 +168,11 @@ url = "https://www.awesomelan.example/"
 
 
 ## Changelog
+
+
+### 0.10 (in preparation)
+
+* Added optional links section for series.
 
 
 ### 0.9 (2025-04-04)

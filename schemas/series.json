@@ -28,6 +28,28 @@
             },
             "minItems": 1,
             "uniqueItems": true
+          },
+          "links": {
+            "type": "object",
+            "properties": {
+              "website": {
+                "type": "object",
+                "properties": {
+                  "url": {
+                    "type": "string"
+                  },
+                  "offline": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "url"
+                ]
+              }
+            },
+            "required": [
+              "website"
+            ]
           }
         },
         "required": [
