@@ -23,7 +23,7 @@ The data is represented in the form of flat files, formatted in
 read and write by both humans and computers.
 
 * Each party has its own file.
-* All party series are listed together in a single file.
+* Each series has its own file.
   * Not all parties are part of a series, though.
 
 See [`FORMAT.md`](./FORMAT.md) for details.
@@ -35,7 +35,7 @@ Available libraries to work with the data format:
 
 | Repository | Programming Language | Supported Format Version |
 | - | - | - |
-| https://github.com/lanpartydb/lib-python | Python | 0.10 |
+| https://github.com/lanpartydb/lib-python | Python | 0.11 |
 
 
 ## How to Contribute

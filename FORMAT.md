@@ -20,8 +20,8 @@ Not every party belongs to a series, though! Some are just one-time events.
 
 ### Party Series
 
-Party series are listed in a single file,
-[`./data/series.toml`](./data/series.toml).
+Each party series should be defined in its own file, which should be named
+`<series slug>.toml`, in path `./data/series`.
 
 A series *must* specify:
 
@@ -45,24 +45,22 @@ A links section *must* have:
   * *can* specify `offline`, with a value of either `false` (the default) or
     `true`.
 
-Minimal example of an entry:
+Minimal series example:
 
 ```toml
-[[series]]
 slug = "awesome-lan"
 title = "Awesome LAN"
 ```
 
-Full example of an entry:
+Full series example:
 
 ```toml
-[[series]]
 slug = "awesome-lan"
 title = "Awesome LAN"
 alternative_titles = ["That Awesome LAN Party"]
 country_codes = ["ca"]
 
-[series.links.website]
+[links.website]
 url = "https://www.awesomelan.example/"
 ```
 
@@ -169,6 +167,11 @@ url = "https://www.awesomelan.example/"
 
 
 ## Changelog
+
+
+### 0.11 (2025-12-13)
+
+* Moved series into a separate file each.
 
 
 ### 0.10 (2025-12-13)

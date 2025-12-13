@@ -8,7 +8,7 @@ validate: && validate-series validate-parties validate-party-dates
 
 validate-series:
     @echo "Validating series ..."
-    @taplo lint --schema "file://"$PWD"/schemas/series.json" data/series.toml && taplo format --check data/series.toml
+    @taplo lint --schema "file://"$PWD"/schemas/series.json" data/series/*.toml && taplo format --check data/series/*.toml
 
 validate-parties:
     @echo "Validating parties ..."

@@ -1,63 +1,56 @@
 {
   "title": "LAN party series",
   "type": "object",
+  "type": "object",
   "properties": {
-    "series": {
+    "slug": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "alternative_titles": {
       "type": "array",
       "items": {
-        "type": "object",
-        "properties": {
-          "slug": {
-            "type": "string"
-          },
-          "title": {
-            "type": "string"
-          },
-          "alternative_titles": {
-            "type": "array",
-            "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "country_codes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "links": {
+      "type": "object",
+      "properties": {
+        "website": {
+          "type": "object",
+          "properties": {
+            "url": {
               "type": "string"
             },
-            "minItems": 1,
-            "uniqueItems": true
+            "offline": {
+              "type": "boolean"
+            }
           },
-          "country_codes": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            },
-            "minItems": 1,
-            "uniqueItems": true
-          },
-          "links": {
-            "type": "object",
-            "properties": {
-              "website": {
-                "type": "object",
-                "properties": {
-                  "url": {
-                    "type": "string"
-                  },
-                  "offline": {
-                    "type": "boolean"
-                  }
-                },
-                "required": [
-                  "url"
-                ]
-              }
-            },
-            "required": [
-              "website"
-            ]
-          }
-        },
-        "required": [
-          "slug",
-          "title",
-          "country_codes"
-        ]
-      }
+          "required": [
+            "url"
+          ]
+        }
+      },
+      "required": [
+        "website"
+      ]
     }
-  }
+  },
+  "required": [
+    "slug",
+    "title",
+    "country_codes"
+  ]
 }
