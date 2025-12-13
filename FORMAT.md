@@ -60,6 +60,7 @@ Full example of an entry:
 slug = "awesome-lan"
 name = "Awesome LAN"
 alternative_names = ["That Awesome LAN Party"]
+country_codes = ["ca"]
 
 [links.website]
 url = "https://www.awesomelan.example/"
