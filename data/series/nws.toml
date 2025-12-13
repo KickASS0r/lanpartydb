@@ -1,0 +1,4 @@
+slug = "nws"
+title = "NWS"
+alternative_titles = ["NetzWerkSession"]
+country_codes = ["de"]
