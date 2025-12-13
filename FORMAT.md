@@ -62,7 +62,7 @@ title = "Awesome LAN"
 alternative_titles = ["That Awesome LAN Party"]
 country_codes = ["ca"]
 
-[links.website]
+[series.links.website]
 url = "https://www.awesomelan.example/"
 ```
 
