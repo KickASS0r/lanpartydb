@@ -17,3 +17,4 @@ longitude = 8.96818
 
 [links.website]
 url = "http://www.flashlight-network.de/"
+offline = true
