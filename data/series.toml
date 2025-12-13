@@ -2,253 +2,253 @@
 
 [[series]]
 slug = "atrlan"
-name = "ATRLAN"
+title = "ATRLAN"
 country_codes = ["us"]
 
 [[series]]
 slug = "bieberlan"
-name = "BieberLAN"
+title = "BieberLAN"
 country_codes = ["de"]
 
 [[series]]
 slug = "bk-lan"
-name = "BK-LAN"
+title = "BK-LAN"
 country_codes = ["de"]
 
 [[series]]
 slug = "caggtus"
-name = "CAGGTUS"
+title = "CAGGTUS"
 country_codes = ["de"]
 
 [[series]]
 slug = "campers-ascension"
-name = "Campers Ascension"
+title = "Campers Ascension"
 country_codes = ["at"]
 
 [[series]]
 slug = "capital-lan"
-name = "Capital LAN"
+title = "Capital LAN"
 country_codes = ["us"]
 
 [[series]]
 slug = "connect2rza"
-name = "connEcT2RZA"
+title = "connEcT2RZA"
 country_codes = ["de"]
 
 [[series]]
 slug = "convention-x-treme"
-name = "Convention-X-Treme"
+title = "Convention-X-Treme"
 country_codes = ["de"]
 
 [[series]]
 slug = "darkbreed"
-name = "DarkBreed"
+title = "DarkBreed"
 country_codes = ["de"]
 
 [[series]]
 slug = "dreamhack-leipzig"
-name = "DreamHack Leipzig"
+title = "DreamHack Leipzig"
 country_codes = ["de"]
 
 [[series]]
 slug = "ennsomnia"
-name = "Ennsomnia"
+title = "Ennsomnia"
 country_codes = ["at"]
 
 [[series]]
 slug = "exile-lan"
-name = "Exile LAN"
+title = "Exile LAN"
 country_codes = ["us"]
 
 [[series]]
 slug = "exodus-lan"
-name = "Exodus LAN"
+title = "Exodus LAN"
 country_codes = ["us"]
 
 [[series]]
 slug = "fites-lan"
-name = "FITES LAN"
+title = "FITES LAN"
 country_codes = ["us"]
 
 [[series]]
 slug = "flashlight-network"
-name = "Flashlight-Network"
+title = "Flashlight-Network"
 country_codes = ["de"]
 
 [[series]]
 slug = "fragshow"
-name = "FragShow"
+title = "FragShow"
 country_codes = ["de"]
 
 [[series]]
 slug = "freestyle-lan"
-name = "Freestyle-LAN"
+title = "Freestyle-LAN"
 country_codes = ["at"]
 
 [[series]]
 slug = "freestyle-lan-zero"
-name = "Freestyle-LAN Zero"
+title = "Freestyle-LAN Zero"
 country_codes = ["at"]
 
 [[series]]
 slug = "frogbyte"
-name = "Frogbyte LAN Party"
+title = "Frogbyte LAN Party"
 country_codes = ["it"]
 
 [[series]]
 slug = "gamers-congress"
-name = "Gamers' Congress"
+title = "Gamers' Congress"
 country_codes = ["de"]
 
 [[series]]
 slug = "genial-verplant"
-name = "genial verpLANt"
-alternative_names = ["total verpLANt"]
+title = "genial verpLANt"
+alternative_titles = ["total verpLANt"]
 country_codes = ["de"]
 
 [[series]]
 slug = "green-lan-party"
-name = "Green LAN Party"
-alternative_names = ["GLP"]
+title = "Green LAN Party"
+alternative_titles = ["GLP"]
 country_codes = ["de"]
 
 [[series]]
 slug = "gsh-lan"
-name = "GSH-LAN"
-alternative_names = ["GSH"]
+title = "GSH-LAN"
+alternative_titles = ["GSH"]
 country_codes = ["de"]
 
 [[series]]
 slug = "gxp"
-name = "gXp"
+title = "gXp"
 country_codes = ["de"]
 
 [[series]]
 slug = "heilige-3-camper"
-name = "Heilige 3 Camper"
+title = "Heilige 3 Camper"
 country_codes = ["at"]
 
 [[series]]
 slug = "house-of-lan"
-name = "House of LAN"
+title = "House of LAN"
 country_codes = ["de"]
 
 [[series]]
 slug = "insanity"
-name = "Insanity"
+title = "Insanity"
 country_codes = ["de"]
 
 [[series]]
 slug = "isle-of-lan"
-name = "Isle of LAN"
+title = "Isle of LAN"
 country_codes = ["ch"]
 
 [[series]]
 slug = "junien"
-name = "['ju:nien]"
+title = "['ju:nien]"
 country_codes = ["de"]
 
 [[series]]
 slug = "klopperhoppel"
-name = "Klopperhoppel"
+title = "Klopperhoppel"
 country_codes = ["de"]
 
 [[series]]
 slug = "la-network"
-name = "LA-Network"
+title = "LA-Network"
 country_codes = ["de"]
 
 [[series]]
 slug = "lanresort"
-name = "LANresort"
+title = "LANresort"
 country_codes = ["de"]
 
 [[series]]
 slug = "lan-team-invite"
-name = "LAN-Team - Invite"
-alternative_names = ["LAN-Team - Invite Only"]
+title = "LAN-Team - Invite"
+alternative_titles = ["LAN-Team - Invite Only"]
 country_codes = ["de"]
 
 [[series]]
 slug = "leonding-lan"
-name = "LeondingLAN"
+title = "LeondingLAN"
 country_codes = ["at"]
 
 [[series]]
 slug = "lock-and-load"
-name = "LOCK AND LOAD"
+title = "LOCK AND LOAD"
 country_codes = ["ch"]
 
 [[series]]
 slug = "max"
-name = "Max"
+title = "Max"
 country_codes = ["de"]
 
 [[series]]
 slug = "northcon"
-name = "NorthCon"
-alternative_names = ["Northern LAN Convention"]
+title = "NorthCon"
+alternative_titles = ["Northern LAN Convention"]
 country_codes = ["de"]
 
 [[series]]
 slug = "nws"
-name = "NWS"
-alternative_names = ["NetzWerkSession"]
+title = "NWS"
+alternative_titles = ["NetzWerkSession"]
 country_codes = ["de"]
 
 [[series]]
 slug = "planet-insomnia"
-name = "Planet Insomnia"
+title = "Planet Insomnia"
 country_codes = ["de"]
 
 [[series]]
 slug = "quakecon"
-name = "QuakeCon"
+title = "QuakeCon"
 country_codes = ["us"]
 
 [[series]]
 slug = "rgb-lan"
-name = "RGB LAN"
+title = "RGB LAN"
 country_codes = ["us"]
 
 [[series]]
 slug = "rofl-lan"
-name = "Ro.Fl.-LAN"
+title = "Ro.Fl.-LAN"
 country_codes = ["de"]
 
 [[series]]
 slug = "saarlan"
-name = "SaarLAN"
+title = "SaarLAN"
 country_codes = ["de"]
 
 [[series]]
 slug = "slg-lan"
-name = "sLg | LAN"
+title = "sLg | LAN"
 country_codes = ["de"]
 
 [[series]]
 slug = "the-activation"
-name = "The Activation"
+title = "The Activation"
 country_codes = ["de"]
 
 [[series]]
 slug = "unitedlans"
-name = "unitedLANs"
+title = "unitedLANs"
 country_codes = ["de"]
 
 [[series]]
 slug = "w2tj"
-name = "W2tJ"
-alternative_names = ["Welcome 2 the Jungle"]
+title = "W2tJ"
+alternative_titles = ["Welcome 2 the Jungle"]
 country_codes = ["de"]
 
 [[series]]
 slug = "wildefingerspiele"
-name = "Wildefingerspiele"
+title = "Wildefingerspiele"
 country_codes = ["de"]
 
 [[series]]
 slug = "zockparade"
-name = "ZockParade"
-alternative_names = ["ZP"]
+title = "ZockParade"
+alternative_titles = ["ZP"]
 country_codes = ["de"]
