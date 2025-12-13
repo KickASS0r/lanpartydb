@@ -17,3 +17,4 @@ longitude = 7.99760
 
 [links.website]
 url = "http://www.la-network.de/"
+offline = true
